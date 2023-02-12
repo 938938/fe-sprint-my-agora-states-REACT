@@ -34,9 +34,6 @@ const Question = ({ setUserName, setTitle, setText }) => {
             <button className='close' type='button' onClick={onToggle}>
               X
             </button>
-            {/* <div className='close' onClick={onToggle}>
-              <ion-icon name='close-outline'></ion-icon>
-            </div> */}
             <div className='form__input--wrapper'>
               <div className='form__input--name'>
                 <input

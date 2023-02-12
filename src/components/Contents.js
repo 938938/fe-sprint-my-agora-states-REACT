@@ -8,7 +8,9 @@ const Contents = ({ list }) => {
         {list.length === 0 ? (
           <p>Loading...</p>
         ) : (
-          list.map((ele) => <Content key={ele.id} data={ele} />)
+          list.map((ele) => (
+            <Content key={ele.id} data={ele} />
+          ))
         )}
       </ul>
     </section>
