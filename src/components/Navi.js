@@ -1,10 +1,11 @@
 import React from 'react';
+import { IoIosExit } from 'react-icons/io';
 
 const Navi = () => {
   return (
     <nav>
       <button className='linkbtn'>
-        <ion-icon name='menu-outline'></ion-icon>
+        <IoIosExit />
       </button>
       <ul className='links'>
         <li>
